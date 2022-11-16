@@ -1,0 +1,20 @@
+﻿  CellEater.cpp
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(19,10): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(19,37): warning C4244: 'inizializzazione': conversione da 'double' a 'int'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(67,90): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(69,90): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(72,116): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(74,116): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(79,99): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(81,96): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(84,116): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(86,116): warning C4244: 'return': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(91,16): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(92,29): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(105,130): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(106,130): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(133,13): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(135,16): warning C4018: '<': errata corrispondenza tra signed e unsigned
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(187,25): warning C4244: 'argomento': conversione da 'float' a 'GLsizei'. Possibile perdita di dati.
+C:\Users\User\source\repos\CellEater\CellEater\CellEater.cpp(190,22): warning C4244: 'argomento': conversione da 'float' a 'GLsizei'. Possibile perdita di dati.
+  CellEater.vcxproj -> C:\Users\User\source\repos\CellEater\Debug\CellEater.exe
