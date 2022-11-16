@@ -15,8 +15,7 @@ int score = 0;
 mat4 Projection;
 int width = 1280, height = 720;
 GLuint MatProj, MatModel;
-float  dx = 0, dy = 0, virus_size = 0, grossezza = 0.0, w_update, h_update, w_window, h_window;
-int adder = 1;
+float  dx = 0, dy = 0, virus_size = 0,pulse = 1, adder = 0.1, grossezza = 0.0, w_update, h_update, w_window, h_window;
 Figura Sfondo, Mangiatore, Virus, Cellula;
 vector<Figura> Scena;
 
@@ -29,7 +28,12 @@ void updateVirus(int value)
 		}
 		Scena[i].posx += Scena[i].mover;
 	}
-	glutTimerFunc(10, updateVirus, 0);
+	pulse += adder;
+	if (pulse >= 2 || pulse <= 0) {
+		adder = -adder;
+	}
+
+	glutTimerFunc(20, updateVirus, 0);
 	glutPostRedisplay();
 	
 }
@@ -150,7 +154,7 @@ void drawScene(void)
 		if (Scena[i].active == true) {
 			Scena[i].Model = mat4(1.0);
 			Scena[i].Model = translate(Scena[i].Model, vec3((float)Scena[i].posx, (float)Scena[i].posy, 0.0f));
-			Scena[i].Model = scale(Scena[i].Model, vec3(4, 4, 1.0));
+			Scena[i].Model = scale(Scena[i].Model, vec3(4 + pulse, 3 + pulse, 1.0));
 			Scena[i].corner_b = Scena[i].corner_b_obj;
 			Scena[i].corner_t = Scena[i].corner_t_obj;
 			Scena[i].corner_b = Scena[i].Model * Scena[i].corner_b;
