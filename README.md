@@ -1,4 +1,5 @@
-# Cell Eater - Computer Graphics -
+# Cell Eater - Computer Graphics
+
 Elaborato per il corso di Computer Graphics nel corso di Ingegneria e Scienze informatiche.
 Tassinari Riccardo - riccardo.tassinari9@studio.unibo.it
 
